@@ -1,0 +1,170 @@
+body {
+    font-family: 'PT Serif', sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    background-color: antiquewhite;
+}
+
+button {
+    font-family: 'PT Serif', sans-serif;
+}
+
+.container {
+    width: 300px;
+    margin : 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.title {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.timer-section{
+    margin-bottom: 30px;
+}
+
+.timer {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.timer-ctrls button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#start-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#start-btn:hover {
+    background-color: #45a049;
+}
+
+#reset-btn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#reset-btn:hover {
+    background-color: #c0392b;
+}
+
+.task-section {
+    margin-top: 20px;
+}
+
+.task-title {
+    font-size: 30px; /* Adjust the font size for better visibility */
+    font-weight: bold; /* Make the title bold */
+    color: #333; /* Neutral dark color */
+    text-align: center; /* Align the title to the left */
+    margin-bottom: 10px; /* Add spacing below the title */
+}
+
+.task-ctrls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.task-ctrls input {
+    padding: 10px;
+    font-size: 14px;
+    flex-grow: 1;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.task-ctrls button {
+    width: 10x;
+    height: 40px;
+    font-size: 20px;
+    padding: 0;
+    line-height: 40px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#add-task-btn {
+    width: 50px;
+    height: 40px;
+    font-size: 20px;
+    padding: 0;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#add-task-btn:hover {
+    background-color: #45a049;
+}
+
+.task-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.task-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    color: #333;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+
+.task-list li:hover {
+    background-color: #f1f1f1;
+    transform: translateY(-2px);
+}
+
+.task-list li button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s ease;
+}
+
+.task-list li button:hover {
+    background-color: #c0392b;
+}
