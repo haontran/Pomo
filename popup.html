@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pomo</title>
+        <link rel="stylesheet" href="popup.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1 class="title">Pomo</h1>
+            </header>
+
+            <section class="timer-section">
+                <div class="timer">25:00</div>
+                <div class="timer-ctrls">
+                    <button id="start-btn">Start</button>
+                    <button id="reset-btn">Reset</button>
+                </div>
+            </section>
+            
+            <section class="task-section">
+                <h2 class="task-title">Tasks</h2>
+                <div class="task-ctrls">
+                    <input type="text" id="task-input" placeholder="Enter a task"/>
+                    <button id="add-task-btn">+</button>
+                </div>
+                <ul class="task-list"></ul>
+            </section>
+        </div>   
+    </body>
+    <script src="popup.js"></script>
+</html>
